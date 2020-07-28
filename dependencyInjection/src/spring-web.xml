@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<bean id="student" class="com.dhuvarag.org.Student">
+<!-- 	<property name="studentName" value="Dhuvaraganath"></property> -->
+<!-- 	<property name="id" value="001"></property> -->
+	
+	<constructor-arg name="studentName" value="Dhuvaraganath"/>
+	    <constructor-arg name="id" value="001"></constructor-arg>
+</bean>
+<bean id="student2" class="com.dhuvarag.org.Student">
+<!-- 	<property name="studentName" value="Arun"></property> -->
+<!-- 	<property name="id" value="002"></property> -->
+		<constructor-arg name="studentName" value="Arun"/>
+	    <constructor-arg name="id" value="002"></constructor-arg>
+</bean>
+
+
+
+
+</beans>
+
+
+
+
+
+
+
